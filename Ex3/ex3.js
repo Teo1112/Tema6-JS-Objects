@@ -1,11 +1,3 @@
-//sir de obiecte
-const carti = [
-    { titlu: "Hobbitul", autor: "J.R.R. Tolkien", esteCitita: true },
-    { titlu: "1984", autor: "George Orwell", esteCitita: false },
-    { titlu: "Mândrie și prejudecată", autor: "Jane Austen", esteCitita: true },
-    { titlu: "Crimă și pedeapsă", autor: "Fyodor Dostoevsky", esteCitita: false }
-];
-
 function afiseazaCarti(carti) {
     for (const carte of carti) {
 
@@ -19,5 +11,13 @@ function afiseazaCarti(carti) {
         }
     }
 }
+
+//sir de obiecte
+const carti = [
+    { titlu: "Hobbitul", autor: "J.R.R. Tolkien", esteCitita: true },
+    { titlu: "1984", autor: "George Orwell", esteCitita: false },
+    { titlu: "Mândrie și prejudecată", autor: "Jane Austen", esteCitita: true },
+    { titlu: "Crimă și pedeapsă", autor: "Fyodor Dostoevsky", esteCitita: false }
+];
 
 afiseazaCarti(carti);
