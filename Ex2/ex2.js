@@ -13,5 +13,5 @@ function eliminaProprietate(obiect, proprietate) {
 const obiect = { a: 1, b: 2 };
 const proprietate = "b";
 const rezultatObiect = eliminaProprietate(obiect, proprietate);
-console.log(rezultatFunctie); 
+console.log(rezultatObiect); 
  // Output: { a: 1 }
