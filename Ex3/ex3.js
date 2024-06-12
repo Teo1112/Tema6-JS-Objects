@@ -9,7 +9,8 @@ const carti = [
 function afiseazaCarti(carti) {
     for (const carte of carti) {
 
-        console.log(`${carte.titlu} de ${carte.autor}`); //afisam titlu si autor
+        // afisam titlu si autor
+        console.log(`${carte.titlu} de ${carte.autor}`);
         
         if (carte.esteCitita) {
             console.log(`Ai citit deja "${carte.titlu}" de ${carte.autor}`);
